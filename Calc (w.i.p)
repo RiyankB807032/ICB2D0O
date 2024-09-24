@@ -34,7 +34,8 @@ public class Assignment1 {
         int cylinderrad =  scanner.nextInt();
         System.out.println("The volume is" + Math.PI * cylinderrad * cylinderrad * cylinderh);
         System.out.println("The surface area is " +  2 * Math.PI * cylinderrad * cylinderh + 2 * Math.PI * cylinderrad * cylinderrad);
-        System.out.println("The period is the time it takes for a pendulum to make one back-and-forth swing, now enter the meters ");
+        System.out.println(" I will now calculate the period is the time it takes for a pendulum to make one back-and-forth swing, now enter the meters ");
         int L  =  scanner.nextInt();
-        System.out.println("The time for one swing is " 2 * Math.PI * sqrt(L/9));
+        System.out.println("The time for one swing is " + 2 * Math.PI * Math.sqrt(L/9.0));
+        
         
