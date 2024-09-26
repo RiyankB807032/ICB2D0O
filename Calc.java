@@ -8,7 +8,11 @@ import java.lang.Math;
 import java.util.Scanner;
 /**
  *
- * @author 807032
+ * Riyank Berde 807032
+   Date: 9/26/2024
+   Course: Grade 10 COmp Sci
+   Title: Assignment 1
+   Description: A program which outputs a series of numbers based on a algorithm
  */
 public class Assignment1 {
     
