@@ -1,4 +1,4 @@
-class Testing {
+class Cookies {
   public static void main(String [] args) {
     // place your code here!
     int cookie = 144;
