@@ -1,4 +1,4 @@
-  class Testing {
+  class Circumference {
   public static void main(String [] args) {
     // place your code here!
     double circ;
