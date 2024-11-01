@@ -4,7 +4,7 @@
  *
  * The expected output should be: 1 24 2 12 3 8 4 6
  */
-class debFacErr {
+class DebuggingandNumbers {
         public static void main(String [] args) {
                 int n = 24;
                 int max = (int) Math.sqrt(n);
