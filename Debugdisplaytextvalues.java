@@ -5,7 +5,7 @@ class  Debugdisplaytextvalues {
 
     String lastMonth = "August";
 
-    System.out.printf("The %s was a great month.\n", lastMonth);
+    System.out.printf("The last month was: " + lastMonth);
 
     //////////// End of tasks /////////////////////
   }
