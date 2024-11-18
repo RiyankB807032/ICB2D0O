@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class menu {
+class MakingAMenu {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         char choice = ' ';
