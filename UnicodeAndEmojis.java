@@ -1,14 +1,15 @@
-// any import statements go here!
-import java.util.Scanner;
-
 public class UnicodeAndEmojis {
     public static void main(String[] args) {
-        // Your code goes here!
-        long smiley = 0x1f600;
-        for(long x = smiley; x < (smiley + 80); x++) {
-        String uChar = new String(Character.toChars((int) x));
-        System.out.printf("%4h\t%s\n", x, uChar);
-        // Yout code stops here!
+     
+        long startEmoji = 0x1F600;
+        long endEmoji = 0x1F64F;
+
+        for (long x = startEmoji; x <= endEmoji; x++) 
+            String emoji = new String(Character.toChars((int) x));
+            System.out.printf("%x\t%s\t", x, emoji);
+            if ((x - startEmoji + 1) % 8 == 0) {
+                System.out.println();
+            }
+        }
     }
-}
 }
