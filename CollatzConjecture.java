@@ -33,7 +33,7 @@ VARIABLE DICTIONARY:
             int numTerms = 1; // Start counting terms with the first term
 
             // Print the starting number
-            System.out.print("The Collatz sequence for n = " + n + " is: " + n); // Output the starting number
+            System.out.print("The Collatz sequence for " + n + " is: " + n); // Output the starting number
 
             // Generate Collatz sequence
             while (n != 1) { // Continue the loop until n becomes 1
