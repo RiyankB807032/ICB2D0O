@@ -44,7 +44,7 @@ VARIABLE DICTIONARY:
                 }
 
                 // Print the next number in the sequence
-                System.out.print(";" + n); // Output the current value of n in the sequence
+                System.out.print("; " + n); // Output the current value of n in the sequence
                 numTerms++; // Increment the term count by 1
 
                 // Update the highest value reached
