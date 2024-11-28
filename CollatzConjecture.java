@@ -56,7 +56,7 @@ VARIABLE DICTIONARY:
             // Output results
             System.out.println(); // Print a new line for better formatting
             System.out.println("Number of terms = " + numTerms); // Display the total number of terms in the sequence
-            System.out.printf("Highest value reached = %,d%n", highestValue); // Display the highest value reached w
+            System.out.printf("Highest value reached = %,d%n", highestValue); // Display the highest value reached 
 
             System.out.print("Do another? (y/n) "); // Ask user if they want to continue
             continueResponse = scanner.next(); // Read the user's response and store it in continueResponse
